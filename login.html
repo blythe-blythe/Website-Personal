@@ -1,0 +1,121 @@
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Perusahaan Film Romantis</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        background-color: #fff;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #fff;
+        padding: 20px;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2.5em;
+      }
+      nav {
+        margin: 20px 0;
+        text-align: center;
+      }
+      nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+      }
+      .login-section {
+        padding: 50px 20px;
+        text-align: center;
+      }
+      .login-section h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+      .login-form {
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: left;
+      }
+      .login-form label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      .login-form input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .login-form button {
+        padding: 10px 20px;
+        font-size: 1em;
+        border: none;
+        border-radius: 5px;
+        background-color: #333;
+        color: #fff;
+        cursor: pointer;
+      }
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        margin-top: 20px;
+      }
+      footer p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Perusahaan Film Romantis</h1>
+    </header>
+    <nav>
+      <a href="homepage.html">Beranda</a>
+      <a href="kontak.html">Kontak</a>
+      <a href="toko.html">Toko</a>
+      <a href="ket.html">Ketentuan Layanan</a>
+    </nav>
+    <div class="login-section">
+      <h2>Login</h2>
+      <div class="login-form">
+        <form action="#">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="password">Kata Sandi</label>
+          <input type="password" id="password" name="password" required />
+
+          <button type="submit">Masuk</button>
+        </form>
+      </div>
+    </div>
+    <nav>
+      <p>Belum Punya Akun?</p>
+      <a href="sign.html">Sign <span> Up</span></a>
+    </nav>
+    <footer>
+      <p>&copy; 2023 Perusahaan Film Romantis. Semua Hak Dilindungi.</p>
+    </footer>
+  </body>
+</html>
